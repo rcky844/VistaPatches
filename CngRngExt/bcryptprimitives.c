@@ -5,5 +5,5 @@
 #include <ntsecapi.h>
 
 BOOLEAN ProcessPrng(PBYTE pbData, SIZE_T cbData) {
-    SystemFunction036(pbData, cbData);
+    return SystemFunction036(pbData, cbData);
 }
